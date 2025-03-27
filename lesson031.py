@@ -16,6 +16,11 @@ print(math.floor(-3.0000000000001))
 print(math.floor(-3.0000000000000001))
 print('-'*80)
 
-
+a = 33
+b = 16
+print(a/b)
+print(a//b)
+print(math.floor(a/b))
+print('-'*80)
 
 
