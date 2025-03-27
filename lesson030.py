@@ -7,5 +7,26 @@ print((160 - 28) * 8, 'bits')
 print(2**1000)
 print('-'*80)
 
+import time
+
+def calc(a):
+    for i in range(10_000_000):
+        a * 2
+
+start = time.perf_counter()
+calc(10)
+end = time.perf_counter()
+print(end-start)
+
+start = time.perf_counter()
+calc(2**100)
+end = time.perf_counter()
+print(end-start)
+
+start = time.perf_counter()
+calc(2**10_000)
+end = time.perf_counter()
+print(end-start)
+
 
 
