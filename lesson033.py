@@ -13,4 +13,17 @@ print(float(a))
 print(int(a))
 print('-'*80)
 
+print(int("12345"))
+print(int("101", 2))
+print(int("FF", 16))
+print(int("ff", 16))
+print(int("A", 11))
+#print(int("B", 11))
+print('-'*80)
+
+
+
+
+
+
 
