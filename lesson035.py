@@ -18,4 +18,17 @@ y = Fraction(3,4)
 print(x+y)
 print(x*y)
 print(x/y)
+print('-'*80)
+
+print(Fraction(8/16))
+print(Fraction(1, -4))
+print(Fraction(-1, 4))
+x = Fraction(1, -4)
+print(x.numerator)
+print(x.denominator)
+print('-'*80)
+
+
+
+
 
