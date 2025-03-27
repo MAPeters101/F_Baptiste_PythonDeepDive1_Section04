@@ -77,6 +77,14 @@ def rebase_from10(number, base):
         encoding = '-' + encoding
     return encoding
 
+e = rebase_from10(10, 2)
+print(e)
+print(int(e, base=2))
+print()
 
+e = rebase_from10(314, 2)
+print(e)
+print(int(e, base=2))
+print()
 
 
