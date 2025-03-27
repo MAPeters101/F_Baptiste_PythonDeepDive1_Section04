@@ -13,3 +13,9 @@ print(Fraction('0.125'))
 print(Fraction('22/7'))
 print('-'*80)
 
+x = Fraction(2,3)
+y = Fraction(3,4)
+print(x+y)
+print(x*y)
+print(x/y)
+
