@@ -48,5 +48,7 @@ def from_base10(n, b):
         digits.insert(0, m)
     return digits
 
+print(from_base10(10,2))
+print(from_base10(255,16))
 
 
