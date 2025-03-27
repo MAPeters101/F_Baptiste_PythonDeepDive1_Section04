@@ -23,12 +23,4 @@ print(a//b)
 print(math.floor(a/b))
 print('-'*80)
 
-a = -33
-b = 16
-print(a/b)
-print(a//b)
-print(math.floor(a/b))
-print('-'*80)
-
-
 
