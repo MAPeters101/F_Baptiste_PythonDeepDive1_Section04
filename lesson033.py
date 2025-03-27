@@ -87,4 +87,19 @@ print(e)
 print(int(e, base=2))
 print()
 
+e = rebase_from10(3451, 16)
+print(e)
+print(int(e, base=16))
+print()
+
+e = rebase_from10(-314, 2)
+print(e)
+print(int(e, base=2))
+print()
+
+e = rebase_from10(-3451, 16)
+print(e)
+print(int(e, base=16))
+print()
+
 
