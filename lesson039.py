@@ -23,6 +23,14 @@ print(format(y, '.25f'))
 print(round(x, 3) == round(y, 3))
 print('-'*80)
 
+x = 10000.01
+y = 10000.02
+print(y/x, x-y)
+
+x = 0.01
+y = 0.02
+print(y/x, x-y)
+print('-'*80)
 
 
 
