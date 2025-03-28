@@ -48,6 +48,13 @@ print(isclose(x, y))
 print(x == y)
 print('-'*80)
 
+x = 123456789.01
+y = 123456789.02
+print(isclose(x, y, rel_tol=0.01))
 
+x = 0.01
+y = 0.02
+print(isclose(x, y, rel_tol=0.01))
+print('='*80)
 
 
