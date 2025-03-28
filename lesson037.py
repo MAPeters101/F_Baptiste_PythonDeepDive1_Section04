@@ -20,6 +20,16 @@ print(1/8)
 print(format(0.125, '.25f'))
 print('-'*80)
 
+a = 0.1 + 0.1 + 0.1
+b = 0.3
+
+print(a == b)
+print(format(a, '.25f'))
+print(format(b, '.25f'))
+
+
+
+
 
 
 
