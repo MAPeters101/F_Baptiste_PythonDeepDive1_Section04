@@ -18,4 +18,11 @@ y = 0.3
 print(x == y)
 print('-'*80)
 
+print(format(x, '.25f'))
+print(format(y, '.25f'))
+print(round(x, 3) == round(y, 3))
+print('-'*80)
+
+
+
 
