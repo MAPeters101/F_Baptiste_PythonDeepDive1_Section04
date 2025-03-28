@@ -57,4 +57,11 @@ y = 0.02
 print(isclose(x, y, rel_tol=0.01))
 print('='*80)
 
+x = 0.0000001
+y = 0.0000002
+print(isclose(x, y, rel_tol=0.01))
+
+print(isclose(x, y, rel_tol=0.01, abs_tol=0.01))
+print('-'*80)
+
 
