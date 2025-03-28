@@ -28,6 +28,15 @@ print(x.numerator)
 print(x.denominator)
 print('-'*80)
 
+import math
+x = Fraction(math.pi)
+print(x)
+print(float(x))
+
+y = Fraction(math.sqrt(2))
+print(y)
+print(float(y))
+
 
 
 
