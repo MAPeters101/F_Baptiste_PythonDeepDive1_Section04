@@ -39,5 +39,15 @@ y = 10000.02
 print(round(x, 1) == round(y, 1))
 print('-'*80)
 
+from math import isclose
+help(isclose)
+
+x = 0.1 + 0.1 + 0.1
+y = 0.3
+print(isclose(x, y))
+print(x == y)
+print('-'*80)
+
+
 
 
