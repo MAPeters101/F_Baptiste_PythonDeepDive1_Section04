@@ -64,4 +64,13 @@ print(isclose(x, y, rel_tol=0.01))
 print(isclose(x, y, rel_tol=0.01, abs_tol=0.01))
 print('-'*80)
 
+x = 0.0000001
+y = 0.0000002
+a = 123456789.01
+b = 123456789.01
+print(isclose(x, y, abs_tol=0.0001, rel_tol=0.01))
+print(isclose(a, b, abs_tol=0.0001, rel_tol=0.01))
+
+
+
 
