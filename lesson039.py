@@ -32,6 +32,12 @@ y = 0.02
 print(y/x, x-y)
 print('-'*80)
 
+print(round(x, 1) == round(y, 1))
+
+x = 10000.01
+y = 10000.02
+print(round(x, 1) == round(y, 1))
+print('-'*80)
 
 
 
