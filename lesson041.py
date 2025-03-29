@@ -12,3 +12,20 @@ print(int(10.5))
 print(int(10.9))
 print('-'*80)
 
+from math import floor
+help(floor)
+
+print(floor(10.3))
+print(floor(10.5))
+print(floor(10.9))
+print()
+print(trunc(-10.4))
+print(trunc(-10.5))
+print(trunc(-10.9))
+print()
+print(floor(-10.4))
+print(floor(-10.5))
+print(floor(-10.9))
+print('-'*80)
+
+
