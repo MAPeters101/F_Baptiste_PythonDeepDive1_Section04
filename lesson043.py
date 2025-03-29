@@ -28,3 +28,33 @@ print(round(-1.25, 1))
 print(round(-1.35, 1))
 print('-'*80)
 
+# def round(x):
+#     return 'a'
+# print(round(10.5))
+
+def _round(x):
+    from math import copysign
+    return int(x + 0.5 * copysign(1, x))
+
+print(round(1.5))
+print(_round(1.5))
+print()
+
+print(round(2.5))
+print(_round(2.5))
+print()
+
+print(round(-1.5))
+print(_round(-1.5))
+print()
+
+print(round(-2.5))
+print(_round(-2.5))
+print()
+
+
+
+
+
+
+
