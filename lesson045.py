@@ -26,8 +26,11 @@ print(decimal.ROUND_HALF_UP)
 
 print(g_ctx)
 print(g_ctx.rounding)
-print()
 print('-'*80)
 
+g_ctx.prec = 28
+g_ctx.rounding = decimal.ROUND_HALF_EVEN
+print(decimal.getcontext())
+print('-'*80)
 
 
