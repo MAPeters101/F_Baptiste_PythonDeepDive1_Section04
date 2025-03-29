@@ -28,4 +28,14 @@ print(floor(-10.5))
 print(floor(-10.9))
 print('-'*80)
 
+from math import ceil
+help(ceil)
+print(ceil(10.4))
+print(ceil(10.5))
+print(ceil(10.9))
+print()
+print(ceil(-10.4))
+print(ceil(-10.5))
+print(ceil(-10.9))
+
 
