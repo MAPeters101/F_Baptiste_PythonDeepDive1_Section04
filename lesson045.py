@@ -36,3 +36,20 @@ print('-'*80)
 print(decimal.localcontext())
 print(type(decimal.localcontext()))
 print(type(decimal.getcontext()))
+print('-'*80)
+
+with decimal.localcontext() as ctx:
+    print(type(ctx))
+    print(ctx)
+
+    ctx.prec = 6
+    ctx.rounding = decimal.ROUND_HALF_UP
+    print(ctx)
+    print(decimal.getcontext())
+    print(decimal.localcontext())
+    print(id(ctx) == id(decimal.getcontext()))
+    print('-'*80)
+
+
+
+
