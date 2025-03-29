@@ -22,5 +22,9 @@ print(round(888.88, -4))
 print(round(9888.88, -4))
 print('-'*80)
 
-
+print(round(1.25, 1))
+print(round(1.35, 1))
+print(round(-1.25, 1))
+print(round(-1.35, 1))
+print('-'*80)
 
