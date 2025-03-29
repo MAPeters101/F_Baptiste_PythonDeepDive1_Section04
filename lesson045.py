@@ -33,4 +33,6 @@ g_ctx.rounding = decimal.ROUND_HALF_EVEN
 print(decimal.getcontext())
 print('-'*80)
 
-
+print(decimal.localcontext())
+print(type(decimal.localcontext()))
+print(type(decimal.getcontext()))
