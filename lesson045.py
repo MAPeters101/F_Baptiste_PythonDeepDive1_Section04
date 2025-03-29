@@ -38,6 +38,11 @@ print(type(decimal.localcontext()))
 print(type(decimal.getcontext()))
 print('-'*80)
 
+x = Decimal('1.25')
+y = Decimal('1.35')
+print(round(x, 1))
+print(round(y, 1))
+
 with decimal.localcontext() as ctx:
     print(type(ctx))
     print(ctx)
@@ -50,6 +55,11 @@ with decimal.localcontext() as ctx:
     print(id(ctx) == id(decimal.getcontext()))
     print('-'*80)
 
+    print(round(x, 1))
+    print(round(y, 1))
+
+print(round(x, 1))
+print(round(y, 1))
 
 
 
