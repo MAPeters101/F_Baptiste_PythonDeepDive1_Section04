@@ -37,6 +37,17 @@ print(a)
 print(b)
 print(0.12345 + 0.12345)
 print(a + b)
+print('-'*80)
+
+decimal.getcontext().prec = 6
+a = Decimal('0.12345')
+b = Decimal('0.12345')
+print(a + b)
+with decimal.localcontext() as ctx:
+    ctx.prec = 2
+    c = a + b
+    print('c within local context: {0}'.format(c))
+print('c outside of local context: {0}'.format(c))
 
 
 
