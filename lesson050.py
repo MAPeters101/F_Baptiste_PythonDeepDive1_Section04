@@ -28,6 +28,72 @@ end = time.perf_counter()
 print('float: ', end-start)
 print('='*80)
 
+def run_float(n):
+    a = 3.1415
+    for i in range(n):
+        a + a
+
+def run_decimal(n):
+    a = Decimal('3.1415')
+    for i in range(n):
+        a + a
+
+n = 10_000_000
+start = time.perf_counter()
+run_float(n)
+end = time.perf_counter()
+print('float: ', end-start)
+
+start = time.perf_counter()
+run_decimal(n)
+end = time.perf_counter()
+print('float: ', end-start)
+print('.'*80)
+
+def run_float(n):
+    a = 3.1415
+    for i in range(n):
+        a * a
+
+def run_decimal(n):
+    a = Decimal('3.1415')
+    for i in range(n):
+        a * a
+
+n = 10_000_000
+start = time.perf_counter()
+run_float(n)
+end = time.perf_counter()
+print('float: ', end-start)
+
+start = time.perf_counter()
+run_decimal(n)
+end = time.perf_counter()
+print('float: ', end-start)
+print('.'*80)
+
+def run_float(n):
+    a = 3.1415
+    for i in range(n):
+        a / a
+
+def run_decimal(n):
+    a = Decimal('3.1415')
+    for i in range(n):
+        a / a
+
+n = 10_000_000
+start = time.perf_counter()
+run_float(n)
+end = time.perf_counter()
+print('float: ', end-start)
+
+start = time.perf_counter()
+run_decimal(n)
+end = time.perf_counter()
+print('float: ', end-start)
+print('-'*80)
+
 
 
 
