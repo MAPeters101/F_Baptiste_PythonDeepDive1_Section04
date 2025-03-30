@@ -61,3 +61,23 @@ print(root_dec * root_dec)
 print('-'*80)
 
 
+x = 0.01
+x_dec = Decimal('0.01')
+print(format(x, '.27f'))
+print(x_dec)
+print()
+
+root_float = math.sqrt(x)
+root_mixed = math.sqrt(x_dec)
+root_dec = x_dec.sqrt()
+print(format(root_float, '1.27f'))
+print(format(root_mixed, '1.27f'))
+print(root_dec)
+print()
+
+print(format(root_float * root_float, '1.27f'))
+print(format(root_mixed * root_mixed, '1.27f'))
+print(root_dec * root_dec)
+print('-'*80)
+
+
