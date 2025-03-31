@@ -33,5 +33,16 @@ print(format((a + a + a).imag, '.25f'))
 print(format((0.3j).imag, '.25f'))
 print('-'*80)
 
+import math
+print(math.sqrt(2))
+print(math.pi)
+
+import cmath
+print(cmath.pi)
+print(type(cmath.pi))
+a = 1 + 2j
+#print(math.sqrt(a))
+print(cmath.sqrt(a))
+print('-'*80)
 
 
