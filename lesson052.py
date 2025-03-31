@@ -45,4 +45,15 @@ a = 1 + 2j
 print(cmath.sqrt(a))
 print('-'*80)
 
+a = 1 + 1j
+print(cmath.phase(a))
+print(cmath.pi/4)
+print(abs(a))
+print(cmath.rect(math.sqrt(2), math.pi/4))
+print('-'*80)
+
+
+
+
+
 
