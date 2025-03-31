@@ -40,6 +40,14 @@ if b and a/b > 2:
 #     print('a is at least twice b')
 print('-'*80)
 
+import string
+help(string)
+
+a = 'c'
+print(string.ascii_uppercase)
+print(string.ascii_lowercase)
+print(string.ascii_letters)
+print(string.digits)
 print('-'*80)
 
 
