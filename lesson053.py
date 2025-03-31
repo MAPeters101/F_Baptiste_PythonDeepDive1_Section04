@@ -30,6 +30,14 @@ print(1 == 2 == False)
 print(1 == 2 and 2 == False)
 print('-'*80)
 
+print(1 + True)
+print(100 * False)
+print(True > False)
+print()
 
-
+print((True + True + True) % 2)
+print(-True)
+print(True and False)
+print(True or False)
+print('-'*80)
 
