@@ -60,6 +60,70 @@ print(bool(b))
 print(bool(c))
 print(bool(d))
 print(bool(e))
+print('='*80)
+
+print(bool(None))
+print()
+a = [1,2,3]
+if a is not None and len(a) > 0:
+    print(a[0])
+else:
+    print('Nothing to see here...')
+print()
+
+if a:
+    print(a[0])
+else:
+    print('Nothing to see here...')
+print()
+
+if bool(a):
+    print(a[0])
+else:
+    print('Nothing to see here...')
+print()
+
+a = []
+if bool(a):
+    print(a[0])
+else:
+    print('Nothing to see here...')
+print()
+
+a = None
+if a:
+    print(a[0])
+else:
+    print('Nothing to see here...')
 print('-'*80)
+
+a = [1, 2]
+if len(a) > 0 and a is not None:
+    print(a[0])
+else:
+    print('Nothing to see here...')
+print()
+
+a = []
+if len(a) > 0 and a is not None:
+    print(a[0])
+else:
+    print('Nothing to see here...')
+print()
+
+# a = None
+# if len(a) > 0 and a is not None:
+#     print(a[0])
+# else:
+#     print('Nothing to see here...')
+# print()
+
+a = None
+if a is not None and len(a) > 0:
+    print(a[0])
+else:
+    print('Nothing to see here...')
+print()
+
 
 
