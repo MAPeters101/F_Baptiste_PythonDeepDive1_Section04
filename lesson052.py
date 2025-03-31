@@ -50,10 +50,18 @@ print(cmath.phase(a))
 print(cmath.pi/4)
 print(abs(a))
 print(cmath.rect(math.sqrt(2), math.pi/4))
-print('-'*80)
+print('='*80)
+
+RHS = cmath.exp(cmath.pi * 1j) + 1
+print(RHS)
+print(cmath.isclose(RHS, 0))
+print(cmath.isclose(RHS, 0, abs_tol=0.0001))
 
 
-
-
+print()
+RHS = cmath.exp(complex(0, math.pi)) + 1
+print(RHS)
+print(cmath.isclose(RHS, 0))
+print(cmath.isclose(RHS, 0, abs_tol=0.0001))
 
 
