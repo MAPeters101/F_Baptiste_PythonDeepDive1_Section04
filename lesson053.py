@@ -23,3 +23,13 @@ print(None is False)
 print(None == False)
 print('-'*80)
 
+print((1 == 2) == False)
+print((1 == 2) is False)
+print()
+print(1 == 2 == False)
+print(1 == 2 and 2 == False)
+print('-'*80)
+
+
+
+
