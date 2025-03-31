@@ -41,3 +41,14 @@ print(True and False)
 print(True or False)
 print('-'*80)
 
+print(bool(0))
+print(bool(1))
+print(int(True))
+print(int(False))
+print()
+print(bool(100))
+print(bool(-1))
+print(bool(0))
+print(bool(-0))
+
+
