@@ -38,4 +38,28 @@ print(Fraction(1,2))
 print(Decimal('10.5'))
 print('-'*80)
 
+a = []
+b = ''
+c = ()
+d = {}
+e = set()
+print(bool(a))
+print(bool(b))
+print(bool(c))
+print(bool(d))
+print(bool(e))
+print()
+
+a = [1, 2]
+b = 'abc'
+c = (1, 2)
+d = {'a':1}
+e = set((1,2))
+print(bool(a))
+print(bool(b))
+print(bool(c))
+print(bool(d))
+print(bool(e))
+print('-'*80)
+
 
