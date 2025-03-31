@@ -81,6 +81,18 @@ name = ''
 print(bool(name))
 print('-'*80)
 
+name = None
+# if len(name) and name[0] in string.digits:
+#     print("Name cannot start with a digit.")
+
+if name is not None and len(name) > 0 and name[0] in string.digits:
+    print("Name cannot start with a digit.")
+
+if name and name[0] in string.digits:
+    print("Name cannot start with a digit.")
+
+
+print('Done')
 
 
 
