@@ -26,6 +26,12 @@ print(a ** b)
 #print(divmod(a, b))
 print('-'*80)
 
+a = 0.1j
+print(format(a.imag, '.25f'))
+print(a + a + a == 0.3j)
+print(format((a + a + a).imag, '.25f'))
+print(format((0.3j).imag, '.25f'))
+print('-'*80)
 
 
 
