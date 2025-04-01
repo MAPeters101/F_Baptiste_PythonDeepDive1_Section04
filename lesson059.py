@@ -19,4 +19,37 @@ print([] or [0])
 print(None or [0])
 print('-'*80)
 
+print(None and 100)
+print([] and [0])
+print()
+
+
+a = 2
+b = 4
+if b == 0:
+    print(0)
+else:
+    print(a/b)
+
+a = 2
+b = 0
+if b == 0:
+    print(0)
+else:
+    print(a/b)
+print()
+
+a = 2
+b = 4
+print(a/b)
+
+a = 2
+b = 0
+print(b and a/b)
+print('-'*80)
+
+
+
+
+
 
