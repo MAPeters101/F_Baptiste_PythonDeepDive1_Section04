@@ -71,6 +71,19 @@ print((s2 and s2[0]) or 'n/a')
 print((s3 and s3[0]) or 'n/a')
 print('='*80)
 
+help(bool)
 
-
+print(not True)
+print(not False)
+print()
+print(bool('abc'))
+print(bool(''))
+print(not bool('abc'))
+print(not bool(''))
+print()
+print(not 'abc')
+print(type(not 'abc'))
+print()
+print(bool(None))
+print(not None)
 
