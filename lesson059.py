@@ -48,7 +48,23 @@ b = 0
 print(b and a/b)
 print('-'*80)
 
+s1 = None
+s2 = ''
+s3 = 'abc'
+#print(s1[0])
+#print(s2[0])
+print(s3[0])
+print()
 
+print(s1 and s1[0])
+print(s2 and s2[0])
+print(s3 and s3[0])
+print()
+
+print((s1 and s1[0]) or '')
+print((s2 and s2[0]) or '')
+print((s3 and s3[0]) or '')
+print('='*80)
 
 
 
