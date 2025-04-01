@@ -64,6 +64,11 @@ print()
 print((s1 and s1[0]) or '')
 print((s2 and s2[0]) or '')
 print((s3 and s3[0]) or '')
+print('-'*80)
+
+print((s1 and s1[0]) or 'n/a')
+print((s2 and s2[0]) or 'n/a')
+print((s3 and s3[0]) or 'n/a')
 print('='*80)
 
 
