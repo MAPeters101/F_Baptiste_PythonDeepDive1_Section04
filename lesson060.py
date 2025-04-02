@@ -26,4 +26,11 @@ print(True == Fraction(2,2))
 print(True < Fraction(3,2))
 print('='*80)
 
-
+print(1 < 2 < 3)
+print(1 < 2 and 2 < 3)
+print()
+print(3 < 2 < 1/0)
+print(3 < 2 and 2 < 1/0)
+#print(3 < 4 < 1/0)
+#print(3 < 4 and 2 < 1/0)
+print('-'*80)
