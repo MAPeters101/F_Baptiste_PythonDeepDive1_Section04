@@ -12,3 +12,14 @@ print('key1' in {'key1' : 1})
 print(1 in {'key1' : 1})
 print('-'*80)
 
+print(3 < 5)
+#print(1 + 1j < 3 + 4j)
+
+from decimal import Decimal
+from fractions import Fraction
+print(4 < Decimal('10.5'))
+print(Fraction(2,3) < Decimal('0.5'))
+print('-'*80)
+
+
+
