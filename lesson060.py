@@ -8,4 +8,7 @@ print(3 in [1,2,3])
 print(3 not in [1,2,3])
 print('-'*80)
 
+print('key1' in {'key1' : 1})
+print(1 in {'key1' : 1})
+print('-'*80)
 
