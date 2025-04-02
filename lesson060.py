@@ -34,3 +34,27 @@ print(3 < 2 and 2 < 1/0)
 #print(3 < 4 < 1/0)
 #print(3 < 4 and 2 < 1/0)
 print('-'*80)
+
+print(1 < 2 > -5)
+print(1 < 2 and 2 > -5)
+print()
+
+print(1 < 2 > -5 == Decimal('-5.0'))
+print(1 < 2 and 2 > -5 and -5 == Decimal('-5.0'))
+print(1 < 2 and 2 > -5 == Decimal('-5.0'))
+print()
+
+import string
+print('A' < 'a')
+print('A' < 'a' < 'z' > 'Z')
+print('A' < 'a' and 'a' < 'z' and 'z' > 'Z')
+print('A' < 'a' < 'z' and 'z' > 'Z')
+print()
+
+print('A' < 'a' and 'a' < 'z' in string.ascii_letters)
+print()
+
+min = 0
+max = 100
+age = 34
+print(min < age < max)
