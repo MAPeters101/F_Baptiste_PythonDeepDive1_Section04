@@ -21,5 +21,9 @@ print(4 < Decimal('10.5'))
 print(Fraction(2,3) < Decimal('0.5'))
 print('-'*80)
 
+print(4 == 4 + 0j)
+print(True == Fraction(2,2))
+print(True < Fraction(3,2))
+print('='*80)
 
 
